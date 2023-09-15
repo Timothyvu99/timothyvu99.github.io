@@ -1,82 +1,85 @@
 <!DOCTYPE html>
-<html lang="">                  
-    <head>
-        <title>Hobbies Page</title>
-        
-    </head>
+<html lang="">     
+    <div class="wrapper">             
+        <head>
+            <link rel="stylesheet" href="styles.css">
+            <title>Hobbies Page</title>
 
-    <body>
+        </head>
 
-        <a href="index.html">Go Back</a>
-        
-        <h1>This is my hobby page</h1>
+        <body>
 
-        <h2>If you want to support my hobbies please enter your credit card information: </h2>
-        
-        <form action="#">
-            <fieldset>
-                <legend>Personal Information</legend>
+            <a href="index.html">Go Back</a>
 
-                <br />
+            <h1>This is my hobby page</h1>
 
-                <label for="credit">Credit Card Number:</label>
-                <input type="password" id="credit" name="credit">
-                <br />
-                <br />
-                
-                <label for="cvc">CVC: </label>
-                <input type="number" id="cvc" name="cvc">
-                <br />
-                <br />
-                
-                <label for="name">Name of Card Holder:</label>
-                <input type="text" id="name" name="name">
-                <br />
-                <br />
+            <h2>If you want to support my hobbies please enter your credit card information: </h2>
 
-                <label for="expiration">Expiration Date: </label>
-                <input type="month" id="expiration" name="expiration">
-                <br />
-                <br />
+            <form action="#">
+                <fieldset class="boxSize">
+                    <legend>Personal Information</legend>
 
-                <input type="submit" value="Submit">
-            </fieldset>
-        </form>
+                    <br />
 
-        <br />
+                    <label for="credit">Credit Card Number:</label>
+                    <input type="password" id="credit" name="credit">
+                    <br />
+                    <br />
 
-        <label for="hobbies">Choose a hobby:</label>
-        <select name="hobbies" id="hobbies">
-            <option value="gym">Gym</option>
-            <option value="games">Videogames</option>
-        </select>
+                    <label for="cvc">CVC: </label>
+                    <input type="number" id="cvc" name="cvc">
+                    <br />
+                    <br />
 
-        <blockquote>
-            These are my hobbies
-        </blockquote>
+                    <label for="name">Name of Card Holder:</label>
+                    <input type="text" id="name" name="name">
+                    <br />
+                    <br />
 
-        <h2>I enjoy exercising during my free time</h2>
-        <p>These are my favorite exercises</p>
+                    <label for="expiration">Expiration Date: </label>
+                    <input type="month" id="expiration" name="expiration">
+                    <br />
+                    <br />
 
-        <ul>
-            <li>Dumbbell Bench Press <img src="images/bench.jpg" alt=""/></li>
-            
-            <li>Dumbbell Shoulder Press <img src="images/shoulder.jpg" alt=""/></li>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
 
-            <li>Back Squat <img src="images/squat.jpeg" alt=""/> </li>
+            <br />
 
-            <li>Power Clean & Split Jerk <img src="images/power.jpg" alt=""/></li>
-        </ul>
+            <label for="hobbies">Choose a hobby:</label>
+            <select name="hobbies" id="hobbies">
+                <option value="gym">Gym</option>
+                <option value="games">Videogames</option>
+            </select>
 
-        <h2>I also enjoy playing games</h2>
-        <h3>These are the games I am currently playing</h3>
+            <blockquote>
+                These are my hobbies
+            </blockquote>
 
-        <ol>
-            <li><b>Baldur's Gate 3</b> <img src="images/baldur.jpg" alt=""/></li>
+            <h2 class="setMargin">I enjoy exercising during my free time</h2>
+            <p>These are my favorite exercises</p>
 
-            <li><b>Omori</b> <img src="images/omori.jpg" alt=""/></li>
+            <ul>
+                <li>Dumbbell Bench Press <img src="images/bench.jpg" alt=""/></li>
 
-            <li><b>Persona 5 Royal</b> <img src="images/persona.jpg " alt=""/></li>
-        </ol>
-    </body>
+                <li>Dumbbell Shoulder Press <img src="images/shoulder.jpg" alt=""/></li>
+
+                <li>Back Squat <img src="images/squat.jpeg" alt=""/> </li>
+
+                <li>Power Clean & Split Jerk <img src="images/power.jpg" class="reSize" alt=""/></li>
+            </ul>
+
+            <h2>I also enjoy playing games</h2>
+            <h3>These are the games I am currently playing</h3>
+
+            <ol>
+                <li><b>Baldur's Gate 3</b> <img src="images/baldur.jpg" alt=""/></li>
+
+                <li><b>Omori</b> <img src="images/omori.jpg" alt=""/></li>
+
+                <li><b>Persona 5 Royal</b> <img src="images/persona.jpg " class="reSize" alt=""/></li>
+            </ol>
+        </body>
+    </div>
 </html>
