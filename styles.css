@@ -90,7 +90,7 @@ body {
 
 .back_image {
     background-image: url(images/naenae.jpg);
-    background-size:cover;
+    background-size:contain;
 }
 
 .boxSize {
