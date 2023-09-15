@@ -80,7 +80,7 @@ th, tr {
 
 @media all and (min-width: 300px) {
   .main    { flex: 3 0px; } 
-  .main    { order: 2; }
+  .main    { order: 1; }
 }
   
 body {
